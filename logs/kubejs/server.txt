@@ -1,0 +1,40 @@
+[13:49:49] [INFO ] Loaded script server_scripts:Occ-Crush.js in 0.001 s
+[13:49:49] [INFO ] Loaded script server_scripts:oreProcessing.js in 0.001 s
+[13:49:49] [INFO ] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
+[13:49:49] [INFO ] Loaded script server_scripts:script.js in 0.001 s
+[13:49:49] [INFO ] Loaded 3/3 KubeJS server scripts in 0.004 s
+[13:49:49] [INFO ] Scripts loaded
+[13:49:49] [INFO ] Scanning recipes...
+[13:49:53] [WARN ] Failed to parse recipe 'supplementaries:planter_rich[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:planter_rich'
+[13:49:53] [WARN ] Failed to parse recipe supplementaries:planter_rich[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:planter_rich'
+[13:49:53] [WARN ] Failed to parse recipe 'pneumaticcraft:drone_interface[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
+[13:49:53] [WARN ] Failed to parse recipe pneumaticcraft:drone_interface[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
+[13:49:53] [WARN ] Failed to parse recipe 'pneumaticcraft:block_heat_properties/quark/brimstone[pneumaticcraft:heat_properties]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: unknown block id: quark:brimstone
+[13:49:53] [WARN ] Failed to parse recipe pneumaticcraft:block_heat_properties/quark/brimstone[pneumaticcraft:heat_properties]: com.google.gson.JsonSyntaxException: unknown block id: quark:brimstone
+[13:49:53] [INFO ] Found 8783 recipes and 0 failed recipes in 80.31 ms
+[13:49:53] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
+[13:49:53] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
+[13:49:53] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
+[13:49:53] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
+[13:49:53] [INFO ] server_scripts:oreProcessing.js:2: + create:crushing: [] -> []
+[13:49:53] [INFO ] server_scripts:oreProcessing.js:13: + create:crushing: [] -> []
+[13:49:53] [INFO ] server_scripts:oreProcessing.js:24: + create:splashing: [] -> []
+[13:49:53] [INFO ] server_scripts:script.js:17: - rechiseled:chisel[minecraft:crafting_shaped]: ['#forge:ingots/iron', '#forge:rods/wooden'] -> ['rechiseled:chisel']
+[13:49:53] [INFO ] server_scripts:script.js:17: + kubejs:shaped: ['minecraft:stick', '#forge:ingots/iron'] -> ['rechiseled:chisel']
+[13:49:53] [INFO ] server_scripts:script.js:28: + botania:mana_infusion: [] -> []
+[13:49:53] [INFO ] server_scripts:script.js:44: + botania:mana_infusion: [] -> []
+[13:49:53] [INFO ] server_scripts:script.js:60: + botania:mana_infusion: [] -> []
+[13:49:53] [INFO ] server_scripts:script.js:76: + botania:mana_infusion: [] -> []
+[13:49:53] [INFO ] server_scripts:script.js:92: + botania:mana_infusion: [] -> []
+[13:49:53] [INFO ] server_scripts:script.js:108: + botania:mana_infusion: [] -> []
+[13:49:53] [INFO ] server_scripts:script.js:124: + botania:mana_infusion: [] -> []
+[13:49:53] [INFO ] server_scripts:script.js:140: + botania:mana_infusion: [] -> []
+[13:49:53] [INFO ] server_scripts:script.js:156: + botania:mana_infusion: [] -> []
+[13:49:53] [INFO ] server_scripts:script.js:172: + botania:mana_infusion: [] -> []
+[13:49:53] [INFO ] server_scripts:script.js:188: + botania:mana_infusion: [] -> []
+[13:49:53] [INFO ] server_scripts:script.js:204: + botania:mana_infusion: [] -> []
+[13:49:53] [ERR  ] server_scripts:script.js:228: Failed to create recipe for type 'create:mixing': Custom recipe has to use a single json object argument!
+[13:49:53] [INFO ] Posted recipe events in 4.527 ms
+[13:49:53] [INFO ] Modified & removed recipes in 62.57 ms
+[13:49:53] [INFO ] Added recipes in 373.7 μs
+[13:49:53] [INFO ] Added 20 recipes, removed 1 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes

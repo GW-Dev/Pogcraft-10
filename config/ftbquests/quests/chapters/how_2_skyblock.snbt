@@ -1,0 +1,352 @@
+{
+	id: "7F10520FB7A2C71B"
+	group: ""
+	order_index: 1
+	filename: "how_2_skyblock"
+	title: "Progression"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -13.0d
+			y: -2.5d
+			description: ["Shift right-click with an empty hand on the grass. You can craft the pebbles in a 2x2 into cobblestone."]
+			id: "01A53608A5A088ED"
+			tasks: [{
+				id: "3A0EE4ECA971A4C3"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+			rewards: [{
+				id: "3BE5521F4E836B07"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			x: -11.0d
+			y: -2.5d
+			description: ["Craft the living roots below your island into saplings and floral fertilizer. As you mine, preserve all dirt. Dirt is precious in the skies."]
+			dependencies: ["01A53608A5A088ED"]
+			dependency_requirement: "one_completed"
+			id: "5C66A62DAA088662"
+			tasks: [{
+				id: "11570407E031C5CA"
+				type: "item"
+				item: "botania:root"
+			}]
+			rewards: [
+				{
+					id: "0DCDCB74ABFE4500"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+				{
+					id: "65796EDAEC9CADAB"
+					type: "item"
+					item: "botania:fertilizer"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -2.5d
+			dependencies: ["5C66A62DAA088662"]
+			id: "2741969B7A36003E"
+			tasks: [{
+				id: "441F5D8B206C5887"
+				type: "checkmark"
+				title: "Refer to the Lexica Botania until you reach manasteel."
+			}]
+		}
+		{
+			title: "Stressed Out"
+			x: -8.0d
+			y: 0.5d
+			dependencies: ["2741969B7A36003E"]
+			id: "56D23309726DB242"
+			tasks: [
+				{
+					id: "1C4A98A4C38F6AD7"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "08D6A4FA2EEFC77B"
+					type: "item"
+					item: "create:sail_frame"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			dependencies: ["56D23309726DB242"]
+			id: "64F6EC95A20132BC"
+			tasks: [
+				{
+					id: "585CCEEC21A51339"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "708D44E287E2F6CC"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+		}
+		{
+			title: "Centrifuging Manasteel"
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["64F6EC95A20132BC"]
+			id: "46C5EC1B9B5D8EBF"
+			tasks: [
+				{
+					id: "6F3F1D30C216A724"
+					type: "item"
+					item: "create:crushed_silver_ore"
+				}
+				{
+					id: "71D4AD574ED83778"
+					type: "item"
+					item: "create:crushed_zinc_ore"
+				}
+				{
+					id: "55F4F4353508178A"
+					type: "item"
+					item: "botania:manasteel_nugget"
+					count: 6L
+				}
+			]
+		}
+		{
+			title: "Oil"
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["112B977DA996ED2D"]
+			id: "4A5A781A7F44AA78"
+			tasks: [
+				{
+					id: "0A16A843CC65D2F9"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "28A0FF98AD22E1D5"
+					type: "item"
+					item: "minecraft:coal"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["64F6EC95A20132BC"]
+			id: "00FB5B1891749F57"
+			tasks: [{
+				id: "680C5B397E8541EB"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["00FB5B1891749F57"]
+			id: "112B977DA996ED2D"
+			tasks: [{
+				id: "28CEB3747E7103B0"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			title: "AE2 Presses"
+			x: 4.5d
+			y: 6.0d
+			dependencies: ["4A5A781A7F44AA78"]
+			id: "220A1DAFB2B1BD70"
+			tasks: [
+				{
+					id: "553BD3D3E0734A49"
+					type: "item"
+					item: "ae2:calculation_processor_press"
+				}
+				{
+					id: "4514EAE43DBB2C44"
+					type: "item"
+					item: "ae2:engineering_processor_press"
+				}
+				{
+					id: "3D284B46D06D17A1"
+					type: "item"
+					item: "ae2:logic_processor_press"
+				}
+				{
+					id: "24F51F35108E7DBA"
+					type: "item"
+					item: "ae2:silicon_press"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["46C5EC1B9B5D8EBF"]
+			id: "1C98CDF5653DF295"
+			tasks: [{
+				id: "67F4DFEA9A85CF7E"
+				type: "checkmark"
+				title: "Create"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.0d
+			dependencies: ["2741969B7A36003E"]
+			id: "05FE403F0362379A"
+			tasks: [{
+				id: "4262A2CCC4A298D8"
+				type: "checkmark"
+				title: "Botania"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			dependencies: ["4A5A781A7F44AA78"]
+			id: "43470D036627B480"
+			tasks: [{
+				id: "03658127A1A1CECB"
+				type: "checkmark"
+				title: "PneumatiCraft"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.0d
+			dependencies: [
+				"220A1DAFB2B1BD70"
+				"251FF0091A76608B"
+			]
+			id: "2BDC5CCBBC372BBD"
+			tasks: [{
+				id: "13F82F9ED188ADF2"
+				type: "checkmark"
+				title: "AE2"
+			}]
+		}
+		{
+			title: "Mixing Silver with Livingwood and Livingrock"
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["46C5EC1B9B5D8EBF"]
+			id: "3AF6751320077AF8"
+			tasks: [
+				{
+					id: "729826B652B6C615"
+					type: "item"
+					item: "occultism:otherstone"
+				}
+				{
+					id: "10506BF512A1F32F"
+					type: "item"
+					item: "occultism:otherworld_log"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["3AF6751320077AF8"]
+			id: "09FCB7E466C85C72"
+			tasks: [{
+				id: "77720B9B0628F25C"
+				type: "checkmark"
+				title: "Occultism"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -4.5d
+			dependencies: ["2741969B7A36003E"]
+			id: "26C8F343B727CDA2"
+			tasks: [{
+				id: "2DEA37D30DCE2099"
+				type: "checkmark"
+				title: "Nature's Aura"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -4.5d
+			dependencies: ["2741969B7A36003E"]
+			id: "378907818D29B70E"
+			tasks: [{
+				id: "26BA1CE51B536C6B"
+				type: "checkmark"
+				title: "Mahou Tsukai"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -6.5d
+			dependencies: ["2741969B7A36003E"]
+			id: "4E1EB712EA2206B9"
+			tasks: [{
+				id: "403327ED183DB958"
+				type: "checkmark"
+				title: "Roots"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["1C98CDF5653DF295"]
+			id: "429BEF58E385FC30"
+			tasks: [{
+				id: "7B256DAD29FD1AEC"
+				type: "checkmark"
+				title: "Hostile Neural Networks"
+			}]
+		}
+		{
+			title: "Mix Crushed Zinc, Oil, and Quartz for Certus Quartz."
+			x: 6.5d
+			y: 5.0d
+			dependencies: ["220A1DAFB2B1BD70"]
+			id: "251FF0091A76608B"
+			tasks: [
+				{
+					id: "73AB5077EA56748D"
+					type: "item"
+					item: "create:crushed_zinc_ore"
+				}
+				{
+					id: "4D8DE4F6A52A4C8E"
+					type: "item"
+					item: "pneumaticcraft:oil_bucket"
+				}
+				{
+					id: "07E04C803E865C06"
+					type: "item"
+					item: "minecraft:quartz"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["1C98CDF5653DF295"]
+			id: "6CCA6B5BCEAF7583"
+			tasks: [{
+				id: "55B580A97F323D83"
+				type: "checkmark"
+				title: "Farmer's Delight"
+			}]
+		}
+	]
+}
