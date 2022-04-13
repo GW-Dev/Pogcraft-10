@@ -25,6 +25,46 @@ onEvent('recipes', event => {
 		I: '#forge:ingots/iron'
 	})
 
+	event.shaped('ae2:calculation_processor_press', [
+		'BSB',
+		'STS',
+		'BSB'
+		], {
+		S: 'occultism:silver_ingot',
+		B: 'create:brass_ingot',
+		T: 'botania:terrasteel_ingot'
+	})
+
+	event.shaped('ae2:engineering_processor_press', [
+		'BSB',
+		'STS',
+		'BSB'
+		], {
+		S: 'occultism:silver_ingot',
+		B: 'create:brass_ingot',
+		T: 'botania:elementium_ingot'
+	})
+
+	event.shaped('ae2:logic_processor_press', [
+		'BSB',
+		'STS',
+		'BSB'
+		], {
+		S: 'occultism:silver_ingot',
+		B: 'create:brass_ingot',
+		T: 'botania:manasteel_ingot'
+	})
+
+	event.shaped('ae2:silicon_press', [
+		'BSB',
+		'STS',
+		'BSB'
+		], {
+		S: 'occultism:silver_ingot',
+		B: 'create:brass_ingot',
+		T: 'minecraft:diamond'
+	})
+
 	event.custom({
 		"type": "botania:mana_infusion",
 		"input": {
@@ -227,8 +267,38 @@ onEvent('recipes', event => {
         'create:polished_rose_quartz'
       ]).superheated()
 
-
-
+	event.remove({output: 'cyclic:generator_food'})
+	event.remove({output: 'cyclic:computer_shape'})
+	event.remove({output: 'cyclic:placer'})
+	event.remove({output: 'cyclic:breaker'})
+	event.remove({output: 'cyclic:forester'})
+	event.remove({output: 'cyclic:miner'})
+	event.remove({output: 'cyclic:structure'})
+	event.remove({output: 'cyclic:harvester'})
+	event.remove({output: 'cyclic:collector'})
+	event.remove({output: 'cyclic:collector_fluid'})
+	event.remove({output: 'cyclic:placer_fluid'})
+	event.remove({output: 'cyclic:user'})
+	event.remove({output: 'cyclic:conveyor'})
+	event.remove({output: 'cyclic:fan'})
+	event.remove({output: 'cyclic:fisher'})
+	event.remove({output: 'cyclic:uncrafter'})
+	event.remove({output: 'cyclic:wireless_transmitter'})
+	event.remove({output: 'cyclic:wireless_receiver'})
+	event.remove({output: 'cyclic:teleport'})
+	event.remove({output: 'cyclic:filter_data'})
+	event.remove({output: 'cyclic:shape_data'})
+	event.remove({output: 'cyclic:settings_data'})
+	event.remove({output: 'cyclic:location_data'})
+	event.remove({output: 'cyclic:crusher'})
+	event.remove({output: 'cyclic:fan_slab'})
+	event.remove({output: 'cyclic:rotator'})
+	event.remove({output: 'cyclic:wireless_item'})
+	event.remove({output: 'cyclic:wireless_fluid'})
+	event.remove({output: 'cyclic:wireless_energy'})
+	event.remove({output: 'cyclic:energy_pipe'})
+	event.remove({output: 'cyclic:item_pipe'})
+	event.remove({output: 'cyclic:fluid_pipe'})
 })
 
 onEvent('item.tags', event => {

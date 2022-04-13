@@ -1,40 +1,82 @@
-[13:49:49] [INFO ] Loaded script server_scripts:Occ-Crush.js in 0.001 s
-[13:49:49] [INFO ] Loaded script server_scripts:oreProcessing.js in 0.001 s
-[13:49:49] [INFO ] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
-[13:49:49] [INFO ] Loaded script server_scripts:script.js in 0.001 s
-[13:49:49] [INFO ] Loaded 3/3 KubeJS server scripts in 0.004 s
-[13:49:49] [INFO ] Scripts loaded
-[13:49:49] [INFO ] Scanning recipes...
-[13:49:53] [WARN ] Failed to parse recipe 'supplementaries:planter_rich[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:planter_rich'
-[13:49:53] [WARN ] Failed to parse recipe supplementaries:planter_rich[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:planter_rich'
-[13:49:53] [WARN ] Failed to parse recipe 'pneumaticcraft:drone_interface[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
-[13:49:53] [WARN ] Failed to parse recipe pneumaticcraft:drone_interface[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
-[13:49:53] [WARN ] Failed to parse recipe 'pneumaticcraft:block_heat_properties/quark/brimstone[pneumaticcraft:heat_properties]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: unknown block id: quark:brimstone
-[13:49:53] [WARN ] Failed to parse recipe pneumaticcraft:block_heat_properties/quark/brimstone[pneumaticcraft:heat_properties]: com.google.gson.JsonSyntaxException: unknown block id: quark:brimstone
-[13:49:53] [INFO ] Found 8783 recipes and 0 failed recipes in 80.31 ms
-[13:49:53] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
-[13:49:53] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
-[13:49:53] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
-[13:49:53] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
-[13:49:53] [INFO ] server_scripts:oreProcessing.js:2: + create:crushing: [] -> []
-[13:49:53] [INFO ] server_scripts:oreProcessing.js:13: + create:crushing: [] -> []
-[13:49:53] [INFO ] server_scripts:oreProcessing.js:24: + create:splashing: [] -> []
-[13:49:53] [INFO ] server_scripts:script.js:17: - rechiseled:chisel[minecraft:crafting_shaped]: ['#forge:ingots/iron', '#forge:rods/wooden'] -> ['rechiseled:chisel']
-[13:49:53] [INFO ] server_scripts:script.js:17: + kubejs:shaped: ['minecraft:stick', '#forge:ingots/iron'] -> ['rechiseled:chisel']
-[13:49:53] [INFO ] server_scripts:script.js:28: + botania:mana_infusion: [] -> []
-[13:49:53] [INFO ] server_scripts:script.js:44: + botania:mana_infusion: [] -> []
-[13:49:53] [INFO ] server_scripts:script.js:60: + botania:mana_infusion: [] -> []
-[13:49:53] [INFO ] server_scripts:script.js:76: + botania:mana_infusion: [] -> []
-[13:49:53] [INFO ] server_scripts:script.js:92: + botania:mana_infusion: [] -> []
-[13:49:53] [INFO ] server_scripts:script.js:108: + botania:mana_infusion: [] -> []
-[13:49:53] [INFO ] server_scripts:script.js:124: + botania:mana_infusion: [] -> []
-[13:49:53] [INFO ] server_scripts:script.js:140: + botania:mana_infusion: [] -> []
-[13:49:53] [INFO ] server_scripts:script.js:156: + botania:mana_infusion: [] -> []
-[13:49:53] [INFO ] server_scripts:script.js:172: + botania:mana_infusion: [] -> []
-[13:49:53] [INFO ] server_scripts:script.js:188: + botania:mana_infusion: [] -> []
-[13:49:53] [INFO ] server_scripts:script.js:204: + botania:mana_infusion: [] -> []
-[13:49:53] [ERR  ] server_scripts:script.js:228: Failed to create recipe for type 'create:mixing': Custom recipe has to use a single json object argument!
-[13:49:53] [INFO ] Posted recipe events in 4.527 ms
-[13:49:53] [INFO ] Modified & removed recipes in 62.57 ms
-[13:49:53] [INFO ] Added recipes in 373.7 μs
-[13:49:53] [INFO ] Added 20 recipes, removed 1 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
+[18:36:58] [INFO ] Loaded script server_scripts:Occ-Crush.js in 0.001 s
+[18:36:58] [INFO ] Loaded script server_scripts:oreProcessing.js in 0.002 s
+[18:36:58] [INFO ] Hello, World! (You will see this line every time server resources reload)
+[18:36:58] [INFO ] Loaded script server_scripts:script.js in 0.004 s
+[18:36:58] [INFO ] Loaded 3/3 KubeJS server scripts in 0.01 s
+[18:36:58] [INFO ] Scripts loaded
+[18:36:58] [INFO ] Scanning recipes...
+[18:37:03] [WARN ] Failed to parse recipe 'supplementaries:planter_rich[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:planter_rich'
+[18:37:03] [WARN ] Failed to parse recipe supplementaries:planter_rich[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:planter_rich'
+[18:37:03] [WARN ] Failed to parse recipe 'pneumaticcraft:block_heat_properties/quark/brimstone[pneumaticcraft:heat_properties]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: unknown block id: quark:brimstone
+[18:37:03] [WARN ] Failed to parse recipe pneumaticcraft:block_heat_properties/quark/brimstone[pneumaticcraft:heat_properties]: com.google.gson.JsonSyntaxException: unknown block id: quark:brimstone
+[18:37:03] [INFO ] Found 9292 recipes and 0 failed recipes in 223.9 ms
+[18:37:03] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
+[18:37:03] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
+[18:37:03] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
+[18:37:03] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
+[18:37:03] [INFO ] server_scripts:oreProcessing.js:2: + create:crushing: ['occultism:silver_ore'] -> ['create:crushed_silver_ore', Item.of('create:experience_nugget').withChance(0.75), Item.of('create:crushed_silver_ore').withChance(0.75), Item.of('minecraft:cobblestone').withChance(0.12)]
+[18:37:03] [INFO ] server_scripts:oreProcessing.js:13: + create:crushing: ['occultism:silver_ore_deepslate'] -> ['2x create:crushed_silver_ore', Item.of('create:experience_nugget').withChance(0.75), Item.of('create:crushed_silver_ore').withChance(0.75), Item.of('minecraft:cobbled_deepslate').withChance(0.12)]
+[18:37:03] [INFO ] server_scripts:oreProcessing.js:24: + create:splashing: ['create:crushed_silver_ore'] -> ['9x occultism:silver_nugget', 'occultism:iesnium_nugget']
+[18:37:03] [INFO ] server_scripts:oreProcessing.js:29: + create:mixing: ['3x botania:manasteel_ingot'] -> ['create:crushed_zinc_ore', 'create:crushed_silver_ore', '6x botania:manasteel_nugget']
+[18:37:03] [INFO ] server_scripts:oreProcessing.js:33: + create:mixing: ['botania:livingrock', 'create:crushed_silver_ore'] -> ['occultism:otherstone']
+[18:37:03] [INFO ] server_scripts:oreProcessing.js:38: + create:mixing: ['botania:livingwood_log', 'create:crushed_silver_ore'] -> ['occultism:otherworld_log']
+[18:37:03] [INFO ] server_scripts:oreProcessing.js:46: + create:mixing: [3x '#minecraft:coals'] -> []
+[18:37:03] [INFO ] server_scripts:oreProcessing.js:52: + create:mixing: ['create:crushed_zinc_ore', 'minecraft:quartz'] -> ['ae2:certus_quartz_crystal']
+[18:37:03] [INFO ] server_scripts:script.js:17: - rechiseled:chisel[minecraft:crafting_shaped]: ['#forge:ingots/iron', '#forge:rods/wooden'] -> ['rechiseled:chisel']
+[18:37:03] [INFO ] server_scripts:script.js:17: + kubejs:shaped: ['minecraft:stick', '#forge:ingots/iron'] -> ['rechiseled:chisel']
+[18:37:03] [INFO ] server_scripts:script.js:28: + kubejs:shaped: ['occultism:silver_ingot', 'create:brass_ingot', 'botania:terrasteel_ingot'] -> ['ae2:calculation_processor_press']
+[18:37:03] [INFO ] server_scripts:script.js:38: + kubejs:shaped: ['occultism:silver_ingot', 'create:brass_ingot', 'botania:elementium_ingot'] -> ['ae2:engineering_processor_press']
+[18:37:03] [INFO ] server_scripts:script.js:48: + kubejs:shaped: ['occultism:silver_ingot', 'create:brass_ingot', 'botania:manasteel_ingot'] -> ['ae2:logic_processor_press']
+[18:37:03] [INFO ] server_scripts:script.js:58: + kubejs:shaped: ['occultism:silver_ingot', 'create:brass_ingot', 'minecraft:diamond'] -> ['ae2:silicon_press']
+[18:37:03] [INFO ] server_scripts:script.js:68: + botania:mana_infusion: [] -> []
+[18:37:03] [INFO ] server_scripts:script.js:84: + botania:mana_infusion: [] -> []
+[18:37:03] [INFO ] server_scripts:script.js:100: + botania:mana_infusion: [] -> []
+[18:37:03] [INFO ] server_scripts:script.js:116: + botania:mana_infusion: [] -> []
+[18:37:03] [INFO ] server_scripts:script.js:132: + botania:mana_infusion: [] -> []
+[18:37:03] [INFO ] server_scripts:script.js:148: + botania:mana_infusion: [] -> []
+[18:37:03] [INFO ] server_scripts:script.js:164: + botania:mana_infusion: [] -> []
+[18:37:03] [INFO ] server_scripts:script.js:180: + botania:mana_infusion: [] -> []
+[18:37:03] [INFO ] server_scripts:script.js:196: + botania:mana_infusion: [] -> []
+[18:37:03] [INFO ] server_scripts:script.js:212: + botania:mana_infusion: [] -> []
+[18:37:03] [INFO ] server_scripts:script.js:228: + botania:mana_infusion: [] -> []
+[18:37:03] [INFO ] server_scripts:script.js:244: + botania:mana_infusion: [] -> []
+[18:37:03] [INFO ] server_scripts:script.js:268: + create:mixing: ['#forge:dusts/glowstone', '#forge:dusts/glowstone', '#forge:dusts/glowstone', 'create:powdered_obsidian', 'create:powdered_obsidian', 'create:powdered_obsidian', 'create:polished_rose_quartz'] -> ['create:chromatic_compound']
+[18:37:03] [INFO ] server_scripts:script.js:270: - cyclic:generator_food[minecraft:crafting_shaped]: ['minecraft:target', 'cyclic:gold_bars', '#forge:nuggets/netherite', 'minecraft:redstone_torch'] -> ['cyclic:generator_food']
+[18:37:03] [INFO ] server_scripts:script.js:271: - cyclic:computer_shape[minecraft:crafting_shaped]: ['minecraft:repeater', '#forge:storage_blocks/cobblestone', 'minecraft:iron_block', 'minecraft:green_concrete'] -> ['cyclic:computer_shape']
+[18:37:03] [INFO ] server_scripts:script.js:272: - cyclic:placer[minecraft:crafting_shaped]: ['minecraft:cobblestone_slab', '#forge:ingots/copper', 'minecraft:dropper', 'minecraft:andesite', 'minecraft:redstone'] -> ['cyclic:placer']
+[18:37:03] [INFO ] server_scripts:script.js:273: - cyclic:breaker[minecraft:crafting_shaped]: ['#forge:nuggets/copper', 'minecraft:mossy_cobblestone_slab', 'cyclic:copper_pickaxe', 'cyclic:copper_shovel', 'minecraft:dispenser', 'minecraft:tripwire_hook'] -> ['cyclic:breaker']
+[18:37:03] [INFO ] server_scripts:script.js:274: - cyclic:forester[minecraft:crafting_shaped]: ['cyclic:gem_amber', '#forge:ingots/copper', '#minecraft:logs', 'minecraft:observer'] -> ['cyclic:forester']
+[18:37:03] [INFO ] server_scripts:script.js:275: - cyclic:miner[minecraft:crafting_shaped]: ['minecraft:diamond', '#forge:storage_blocks/flint', '#forge:nuggets/copper', '#forge:storage_blocks/lapis', 'minecraft:iron_pickaxe'] -> ['cyclic:miner']
+[18:37:03] [INFO ] server_scripts:script.js:276: - cyclic:structure[minecraft:crafting_shaped]: ['minecraft:quartz', 'minecraft:dropper', 'minecraft:redstone_block', 'minecraft:observer', 'cyclic:gem_amber'] -> ['cyclic:structure']
+[18:37:03] [INFO ] server_scripts:script.js:277: - cyclic:harvester[minecraft:crafting_shaped]: ['minecraft:emerald', '#forge:storage_blocks/cobblestone', 'cyclic:biomass', '#forge:nuggets/copper', 'cyclic:obsidian_pressure_plate'] -> ['cyclic:harvester']
+[18:37:03] [INFO ] server_scripts:script.js:278: - cyclic:collector[minecraft:crafting_shaped]: ['minecraft:lapis_lazuli', 'minecraft:dropper', 'minecraft:iron_ingot', 'minecraft:hopper', 'cyclic:flint_block'] -> ['cyclic:collector']
+[18:37:03] [INFO ] server_scripts:script.js:279: - cyclic:collector_fluid[minecraft:crafting_shaped]: ['#forge:storage_blocks/lapis', 'minecraft:bucket', '#forge:storage_blocks/iron', 'minecraft:hopper', 'minecraft:comparator'] -> ['cyclic:collector_fluid']
+[18:37:03] [INFO ] server_scripts:script.js:280: - cyclic:placer_fluid[minecraft:crafting_shaped]: ['minecraft:cobblestone_slab', 'minecraft:bucket', '#forge:nuggets/copper', 'cyclic:placer'] -> ['cyclic:placer_fluid']
+[18:37:03] [INFO ] server_scripts:script.js:281: - cyclic:user[minecraft:crafting_shaped]: ['#forge:storage_blocks/flint', 'minecraft:dispenser', 'minecraft:tripwire_hook', '#forge:storage_blocks/cobblestone', '#forge:ingots/gold'] -> ['cyclic:user']
+[18:37:03] [INFO ] server_scripts:script.js:282: - cyclic:conveyor[minecraft:crafting_shaped]: ['minecraft:rail', '#forge:dusts/redstone'] -> ['8x cyclic:conveyor']
+[18:37:03] [INFO ] server_scripts:script.js:283: - cyclic:fan[minecraft:crafting_shaped]: ['minecraft:iron_ingot', 'minecraft:repeater', 'minecraft:stone_slab'] -> ['cyclic:fan']
+[18:37:03] [INFO ] server_scripts:script.js:284: - cyclic:fisher[minecraft:crafting_shaped]: ['minecraft:cobweb', '#forge:chests/trapped', '#forge:storage_blocks/emerald'] -> ['cyclic:fisher']
+[18:37:03] [INFO ] server_scripts:script.js:285: - cyclic:uncrafter[minecraft:crafting_shaped]: ['minecraft:calcite', 'cyclic:gem_obsidian', '#forge:obsidian', '#forge:nuggets/netherite', '#forge:storage_blocks/diamond'] -> ['cyclic:uncrafter']
+[18:37:03] [INFO ] server_scripts:script.js:286: - cyclic:wireless_transmitter[minecraft:crafting_shaped]: ['minecraft:amethyst_shard', 'minecraft:copper_ingot', 'minecraft:repeater'] -> ['cyclic:wireless_transmitter']
+[18:37:03] [INFO ] server_scripts:script.js:287: - cyclic:wireless_receiver[minecraft:crafting_shaped]: ['minecraft:amethyst_shard', 'minecraft:bone_block', '#forge:dusts/redstone'] -> ['4x cyclic:wireless_receiver']
+[18:37:03] [INFO ] server_scripts:script.js:288: - cyclic:teleport[minecraft:crafting_shaped]: ['minecraft:end_stone', 'minecraft:calcite', '#forge:nuggets/netherite'] -> ['cyclic:teleport']
+[18:37:03] [INFO ] server_scripts:script.js:289: - cyclic:filter_data[minecraft:crafting_shaped]: ['#forge:dyes/purple', 'minecraft:iron_nugget', 'cyclic:carbon_paper'] -> ['cyclic:filter_data']
+[18:37:03] [INFO ] server_scripts:script.js:290: - cyclic:shape_data_wipenbt[minecraft:crafting_shapeless]: ['cyclic:shape_data'] -> ['cyclic:shape_data']
+[18:37:03] [INFO ] server_scripts:script.js:290: - cyclic:shape_data[minecraft:crafting_shaped]: ['#forge:dyes/red', 'minecraft:iron_nugget', 'cyclic:carbon_paper'] -> ['4x cyclic:shape_data']
+[18:37:03] [INFO ] server_scripts:script.js:291: - cyclic:settings_data[minecraft:crafting_shaped]: ['#forge:dyes/green', 'minecraft:iron_nugget', 'cyclic:carbon_paper'] -> ['4x cyclic:settings_data']
+[18:37:03] [INFO ] server_scripts:script.js:291: - cyclic:settings_data_wipenbt[minecraft:crafting_shapeless]: ['cyclic:settings_data'] -> ['cyclic:settings_data']
+[18:37:03] [INFO ] server_scripts:script.js:292: - cyclic:location_data[minecraft:crafting_shaped]: ['#forge:dyes/blue', 'minecraft:iron_nugget', 'cyclic:carbon_paper'] -> ['4x cyclic:location_data']
+[18:37:03] [INFO ] server_scripts:script.js:292: - cyclic:location_wipenbt[minecraft:crafting_shapeless]: ['cyclic:location_data'] -> ['cyclic:location_data']
+[18:37:03] [INFO ] server_scripts:script.js:293: - cyclic:crusher[minecraft:crafting_shaped]: ['minecraft:stonecutter', '#forge:storage_blocks/flint', '#forge:nuggets/copper', '#forge:storage_blocks/cobblestone'] -> ['cyclic:crusher']
+[18:37:03] [INFO ] server_scripts:script.js:294: - cyclic:fan_slab[minecraft:crafting_shaped]: ['cyclic:fan', '#forge:storage_blocks/cobblestone'] -> ['3x cyclic:fan_slab']
+[18:37:03] [INFO ] server_scripts:script.js:295: - cyclic:rotator[minecraft:crafting_shaped]: ['#forge:nuggets/copper', 'minecraft:piston', '#minecraft:logs', '#forge:storage_blocks/cobblestone'] -> ['cyclic:rotator']
+[18:37:03] [INFO ] server_scripts:script.js:296: - cyclic:wireless_item[minecraft:crafting_shaped]: ['minecraft:iron_bars', 'minecraft:comparator', 'minecraft:diamond', 'cyclic:gem_amber'] -> ['cyclic:wireless_item']
+[18:37:03] [INFO ] server_scripts:script.js:297: - cyclic:wireless_fluid[minecraft:crafting_shaped]: ['minecraft:iron_bars', 'minecraft:comparator', 'minecraft:bucket', 'cyclic:gem_amber'] -> ['cyclic:wireless_fluid']
+[18:37:03] [INFO ] server_scripts:script.js:298: - cyclic:wireless_energy[minecraft:crafting_shaped]: ['minecraft:iron_bars', 'minecraft:comparator', 'minecraft:nether_brick', 'cyclic:gem_amber'] -> ['cyclic:wireless_energy']
+[18:37:03] [INFO ] server_scripts:script.js:299: - cyclic:energy_pipe[minecraft:crafting_shaped]: ['minecraft:stone_brick_stairs', 'minecraft:redstone'] -> ['8x cyclic:energy_pipe']
+[18:37:03] [INFO ] server_scripts:script.js:300: - cyclic:item_pipe[minecraft:crafting_shaped]: ['minecraft:brick_stairs', '#forge:nuggets/copper'] -> ['8x cyclic:item_pipe']
+[18:37:03] [INFO ] server_scripts:script.js:301: - cyclic:fluid_pipe[minecraft:crafting_shaped]: ['minecraft:brick_stairs', 'minecraft:gold_nugget'] -> ['8x cyclic:fluid_pipe']
+[18:37:03] [INFO ] Posted recipe events in 92.32 ms
+[18:37:03] [INFO ] Modified & removed recipes in 140.8 ms
+[18:37:03] [INFO ] Added recipes in 1.693 ms
+[18:37:03] [INFO ] Added 30 recipes, removed 36 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
