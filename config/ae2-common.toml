@@ -60,8 +60,8 @@
 	matterCannon = 200000
 
 [worldGen]
-	spawnPressesInMeteorites = false
-	generateQuartzOre = false
+	spawnPressesInMeteorites = true
+	generateQuartzOre = true
 	quartzOresPerCluster = 7
 	quartzOresClusterAmount = 20
 	quartzOresBiomeBlacklist = []

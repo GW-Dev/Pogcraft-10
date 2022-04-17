@@ -45,7 +45,7 @@
 	"Ender Watcher" = true
 	"Jukebox Automation" = true
 	"Feeding Trough" = true
-	Gravisand = true
+	Gravisand = false
 	Chute = false
 	"Dispensers Place Blocks" = true
 	"Redstone Randomizer" = true
@@ -85,6 +85,7 @@
 	Stools = true
 	"Industrial Palette" = true
 	"Wooden Posts" = true
+	"Vertical Planks" = true
 	"Variant Chests" = true
 	"Celebratory Lamps" = true
 	"Leaf Carpet" = true
@@ -109,7 +110,6 @@
 	Thatch = true
 	"More Potted Plants" = true
 	Shingles = true
-	"Vertical Planks" = true
 
 	[building.rope]
 		#Set to true to allow ropes to move Tile Entities even if Pistons Push TEs is disabled.
@@ -121,19 +121,33 @@
 		"Enable Iron Plates" = true
 		"Enable Iron Ladder" = true
 
-	[building.variant_chests]
-		"Replace Worldgen Chests" = true
-		"Enable Reverting Wooden Chests" = true
-		#Chests to put in each structure. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
-		"Structure Chests" = ["minecraft:village_plains=quark:oak_chest", "minecraft:igloo=quark:spruce_chest", "minecraft:village_snowy=quark:spruce_chest", "minecraft:village_taiga=quark:spruce_chest", "minecraft:desert_pyramid=quark:birch_chest", "minecraft:jungle_pyramid=quark:jungle_chest", "minecraft:village_desert=quark:jungle_chest", "minecraft:village_savanna=quark:acacia_chest", "minecraft:mansion=quark:dark_oak_chest", "minecraft:pillager_outpost=quark:dark_oak_chest", "minecraft:ruined_portal=quark:crimson_chest", "minecraft:bastion_remnant=quark:crimson_chest", "minecraft:fortress=quark:nether_brick_chest", "minecraft:endcity=quark:purpur_chest"]
+	[building.vertical_planks]
 		#This feature disables itself if any of the following mods are loaded: 
 		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
 
+	[building.variant_chests]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - woodworks
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+		"Replace Worldgen Chests" = true
+		"Enable Reverting Wooden Chests" = true
+		#Chests to put in each structure. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
+		"Structure Chests" = ["minecraft:village_plains=quark:oak_chest", "minecraft:igloo=quark:spruce_chest", "minecraft:village_snowy=quark:spruce_chest", "minecraft:village_taiga=quark:spruce_chest", "minecraft:desert_pyramid=quark:birch_chest", "minecraft:jungle_pyramid=quark:jungle_chest", "minecraft:village_desert=quark:jungle_chest", "minecraft:village_savanna=quark:acacia_chest", "minecraft:mansion=quark:dark_oak_chest", "minecraft:pillager_outpost=quark:dark_oak_chest", "minecraft:ruined_portal=quark:crimson_chest", "minecraft:bastion_remnant=quark:crimson_chest", "minecraft:fortress=quark:nether_brick_chest", "minecraft:endcity=quark:purpur_chest"]
+
 	[building.celebratory_lamps]
 		"Light Level" = 15
+
+	[building.leaf_carpet]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - woodworks
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
 
 	[building.compressed_blocks]
 		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = true
@@ -193,20 +207,20 @@
 		"Enable Pillar" = true
 
 	[building.variant_ladders]
-		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded: 
 		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
+		"Change Names" = true
 
 	[building.variant_bookshelves]
-		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded: 
 		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
+		"Change Names" = true
 
 	[building.oriental_palette]
 		"Enable Paper Blocks" = true
@@ -215,20 +229,6 @@
 	[building.thatch]
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
-
-	[building.vertical_planks]
-		#This feature disables itself if any of the following mods are loaded: 
-		# - woodworks
-		#This is done to prevent content overlap.
-		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
-
-	[building.leaf_carpet]
-		#This feature disables itself if any of the following mods are loaded: 
-		# - woodworks
-		#This is done to prevent content overlap.
-		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
 
 [management]
 	"Expanded Item Interactions" = true
@@ -396,6 +396,7 @@
 	"Utility Recipes" = true
 	"Armed Armor Stands" = true
 	"Double Door Opening" = true
+	"Grab Chickens" = true
 	"Campfires Boost Elytra" = true
 	"Compasses Work Everywhere" = true
 	"Snow Golem Player Heads" = true
@@ -404,6 +405,7 @@
 	"Note Block Mob Sounds" = true
 	"Pat The Dogs" = true
 	"Sign Editing" = true
+	"Vexes Die With Their Masters" = true
 	"More Banner Layers" = true
 	"Hoe Harvesting" = true
 	"Reacharound Placing" = true
@@ -416,8 +418,6 @@
 	"Enhanced Ladders" = true
 	"Better Elytra Rocket" = true
 	"Skull Pikes" = true
-	"Grab Chickens" = true
-	"Vexes Die With Their Masters" = true
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
@@ -444,6 +444,11 @@
 		"Torches Burn" = true
 		#Can bones be smelted down to bone meal?
 		"Bone Meal Utility" = true
+
+	[tweaks.grab_chickens]
+		"Needs No Helmet" = true
+		#Set to 0 to disable
+		"Slowness Level" = 1
 
 	[tweaks.campfires_boost_elytra]
 		"Boost Strength" = 0.5
@@ -484,9 +489,6 @@
 	[tweaks.more_banner_layers]
 		#Allowed values: [1,16]
 		"Layer Limit" = 16
-
-	[tweaks.hoe_harvesting]
-		"Hoes Can Have Fortune" = true
 
 	[tweaks.reacharound_placing]
 		#Allowed values: [0,1]
@@ -545,11 +547,6 @@
 	[tweaks.skull_pikes]
 		"Pike Range" = 5.0
 
-	[tweaks.grab_chickens]
-		"Needs No Helmet" = true
-		#Set to 0 to disable
-		"Slowness Level" = 1
-
 [world]
 	"Monster Box" = true
 	"Blossom Trees" = true
@@ -598,7 +595,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["snowy"]
 					"Is Blacklist" = false
 
@@ -620,7 +617,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["swamp"]
 					"Is Blacklist" = false
 
@@ -642,7 +639,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["savanna"]
 					"Is Blacklist" = false
 
@@ -664,7 +661,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["mountain"]
 					"Is Blacklist" = false
 
@@ -686,7 +683,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["plains"]
 					"Is Blacklist" = false
 
@@ -708,7 +705,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["mesa"]
 					"Is Blacklist" = false
 
@@ -734,7 +731,7 @@
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-				# beach, void, overworld, nether, end]
+				# beach, void, overworld, nether, end, underground]
 				"Biome Types" = []
 				"Is Blacklist" = true
 
@@ -769,7 +766,7 @@
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-				# beach, void, overworld, nether, end]
+				# beach, void, overworld, nether, end, underground]
 				"Biome Types" = ["ocean", "beach", "nether", "end"]
 				"Is Blacklist" = true
 
@@ -924,7 +921,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = []
 					"Is Blacklist" = true
 
@@ -978,7 +975,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["mountain"]
 					"Is Blacklist" = false
 
@@ -1014,7 +1011,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["swamp", "ocean"]
 					"Is Blacklist" = false
 
@@ -1050,7 +1047,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["mesa", "sandy"]
 					"Is Blacklist" = false
 
@@ -1086,7 +1083,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["snowy"]
 					"Is Blacklist" = false
 
@@ -1123,13 +1120,20 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = []
 					"Is Blacklist" = true
 
 				[world.big_stone_clusters.myalite.biomes.biomes]
 					Biomes = ["minecraft:end_highlands"]
 					"Is Blacklist" = false
+
+	[world.azalea_wood]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - caverns_and_chasms
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
 
 	[world.corundum]
 		#Allowed values: [0,1]
@@ -1170,7 +1174,7 @@
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-				# beach, void, overworld, nether, end]
+				# beach, void, overworld, nether, end, underground]
 				"Biome Types" = ["ocean"]
 				"Is Blacklist" = true
 
@@ -1182,13 +1186,6 @@
 		[world.fairy_rings.dimensions]
 			"Is Blacklist" = false
 			Dimensions = ["minecraft:overworld"]
-
-	[world.azalea_wood]
-		#This feature disables itself if any of the following mods are loaded: 
-		# - caverns_and_chasms
-		#This is done to prevent content overlap.
-		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
 
 [mobs]
 	Foxhound = true
@@ -1219,7 +1216,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = []
 					"Is Blacklist" = true
 
@@ -1244,7 +1241,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = []
 					"Is Blacklist" = true
 
@@ -1279,7 +1276,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = []
 					"Is Blacklist" = true
 
@@ -1306,7 +1303,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["swamp"]
 					"Is Blacklist" = false
 
@@ -1342,7 +1339,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["void", "nether", "end"]
 					"Is Blacklist" = true
 
@@ -1368,7 +1365,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["beach"]
 					"Is Blacklist" = false
 
@@ -1393,7 +1390,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["mountain"]
 					"Is Blacklist" = false
 
@@ -1426,7 +1423,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["void", "nether", "end"]
 					"Is Blacklist" = true
 
@@ -1438,13 +1435,13 @@
 	"Greener Grass" = true
 	"Improved Tooltips" = true
 	"Soul Candles" = true
+	"Uses For Curses" = true
 	"Microcrafting Helper" = true
-	"Back Button Keybind" = false
+	"Back Button Keybind" = true
 	"Usage Ticker" = true
 	"Variant Animal Textures" = true
-	"Auto Walk Keybind" = false
+	"Auto Walk Keybind" = true
 	"Chest Searching" = true
-	"Uses For Curses" = true
 
 	[client.greener_grass]
 		"Affect Leaves" = true
@@ -1476,6 +1473,10 @@
 		#So to display a carrot on a stick on a mending book, for example, you use:
 		#minecraft:mending=minecraft:carrot_on_a_stick
 		"Enchanting Additional Stacks" = []
+
+	[client.uses_for_curses]
+		"Vanish Pumpkin Overlay" = true
+		"Bind Armor Stands With Player Heads" = true
 
 	[client.usage_ticker]
 		#Switch the armor display to the off hand side and the hand display to the main hand side
@@ -1512,15 +1513,12 @@
 			G = 0.0
 			B = 0.0
 
-	[client.uses_for_curses]
-		"Vanish Pumpkin Overlay" = true
-		"Bind Armor Stands With Player Heads" = true
-
 [experimental]
 	"Overlay Shader" = false
 	"Adjustable Chat" = false
 	"Narrator Readout" = false
 	"Game Nerfs" = false
+	"Spawner Replacer" = false
 
 	[experimental.overlay_shader]
 		#Sets the name of the shader to load on a regular basis. This can load any shader the Camera module can (and requires the Camera module enabled to apply said logic).
@@ -1544,6 +1542,11 @@
 		"Disable Ice Roads" = true
 		#Makes Sheep not drop Wool when killed
 		"Disable Wool Drops" = true
+
+	[experimental.spawner_replacer]
+		#Mobs to be replaced with other mobs.
+		#Format is: "mob1,mob2", i.e. "minecraft:spider,minecraft:skeleton"
+		"Replace Mobs" = []
 
 [oddities]
 	Pipes = false

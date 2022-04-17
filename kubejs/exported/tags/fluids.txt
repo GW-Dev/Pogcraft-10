@@ -1,15 +1,11 @@
-To refresh this file, delete it and run /reload command again! Last updated: Apr 5, 2022, 5:07:56 AM
+To refresh this file, delete it and run /reload command again! Last updated: Apr 17, 2022, 8:59:38 AM
 
-#forge:gasoline
-- pneumaticcraft:gasoline
+#forge:oxygen
+- mekanism:oxygen
+- mekanism:flowing_oxygen
 
 #forge:lubricant
 - pneumaticcraft:lubricant
-
-#forge:experience
-- sophisticatedcore:xp_still
-- pneumaticcraft:memory_essence
-- reliquary:xp_juice_still
 
 #forge:crude_oil
 - pneumaticcraft:oil
@@ -17,8 +13,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #minecraft:water
 - minecraft:water
 - minecraft:flowing_water
-- mahoutsukai:murky_still
-- mahoutsukai:murky_flow
 
 #forge:biodiesel
 - pneumaticcraft:biodiesel
@@ -27,13 +21,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:milk?
 - minecraft:flowing_milk?
 
-#forge:diesel
-- pneumaticcraft:diesel
+#forge:tritium
+- mekanismgenerators:tritium
+- mekanismgenerators:flowing_tritium
 
-#ae2:blacklisted/annihilation_plane
-
-#pneumaticcraft:yeast_culture
-- pneumaticcraft:yeast_culture
+#forge:uranium_hexafluoride
+- mekanism:uranium_hexafluoride
+- mekanism:flowing_uranium_hexafluoride
 
 #pneumaticcraft:seismic_sensor_interesting
 - #forge:crude_oil
@@ -45,21 +39,156 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:lava
 - minecraft:flowing_lava
 
+#forge:ethene
+- mekanism:ethene
+- mekanism:flowing_ethene
+
+#forge:sulfur_dioxide
+- mekanism:sulfur_dioxide
+- mekanism:flowing_sulfur_dioxide
+
+#forge:hydrogen
+- mekanism:hydrogen
+- mekanism:flowing_hydrogen
+
+#forge:ethanol
+- pneumaticcraft:ethanol
+
+#forge:uranium_oxide
+- mekanism:uranium_oxide
+- mekanism:flowing_uranium_oxide
+
+#forge:fusion_fuel
+- mekanismgenerators:fusion_fuel
+- mekanismgenerators:flowing_fusion_fuel
+
+#forge:chlorine
+- mekanism:chlorine
+- mekanism:flowing_chlorine
+
+#forge:xpjuice
+- mob_grinding_utils:fluid_xp
+
+#forge:superheated_sodium
+- mekanism:superheated_sodium
+- mekanism:flowing_superheated_sodium
+
+#forge:sodium
+- mekanism:sodium
+- mekanism:flowing_sodium
+
+#forge:sulfur_trioxide
+- mekanism:sulfur_trioxide
+- mekanism:flowing_sulfur_trioxide
+
+#forge:sulfuric_acid
+- mekanism:sulfuric_acid
+- mekanism:flowing_sulfuric_acid
+
+#forge:gasoline
+- pneumaticcraft:gasoline
+
+#forge:steam
+- mekanism:steam
+- mekanism:flowing_steam
+
+#forge:experience
+- sophisticatedcore:xp_still
+- mob_grinding_utils:fluid_xp
+- pneumaticcraft:memory_essence?
+- cofh_core:experience?
+- pneumaticcraft:memory_essence
+
+#forge:hydrogen_chloride
+- mekanism:hydrogen_chloride
+- mekanism:flowing_hydrogen_chloride
+
+#forge:lithium
+- mekanism:lithium
+- mekanism:flowing_lithium
+
+#forge:diesel
+- pneumaticcraft:diesel
+
+#ae2:blacklisted/annihilation_plane
+
+#forge:deuterium
+- mekanismgenerators:deuterium
+- mekanismgenerators:flowing_deuterium
+
+#pneumaticcraft:yeast_culture
+- pneumaticcraft:yeast_culture
+
+#forge:hydrofluoric_acid
+- mekanism:hydrofluoric_acid
+- mekanism:flowing_hydrofluoric_acid
+
 #pneumaticcraft:plastic
 - pneumaticcraft:plastic
 
 #pneumaticcraft:etching_acid
 - pneumaticcraft:etching_acid
 
-#forge:ethanol
-- pneumaticcraft:ethanol
+#forge:brine
+- mekanism:brine
+- mekanism:flowing_brine
 
 #forge:kerosene
 - pneumaticcraft:kerosene
 
-#decorative_blocks:thatch
-- decorative_blocks:thatch
-- decorative_blocks:flowing_thatch
+#forge:bioethanol
+- mekanismgenerators:bioethanol
+- mekanismgenerators:flowing_bioethanol
+
+#create:no_infinite_draining
+- mekanismgenerators:bioethanol
+- mekanismgenerators:flowing_bioethanol
+- mekanismgenerators:deuterium
+- mekanismgenerators:flowing_deuterium
+- mekanismgenerators:fusion_fuel
+- mekanismgenerators:flowing_fusion_fuel
+- mekanismgenerators:tritium
+- mekanismgenerators:flowing_tritium
+- mekanism:hydrogen
+- mekanism:flowing_hydrogen
+- mekanism:oxygen
+- mekanism:flowing_oxygen
+- mekanism:chlorine
+- mekanism:flowing_chlorine
+- mekanism:sulfur_dioxide
+- mekanism:flowing_sulfur_dioxide
+- mekanism:sulfur_trioxide
+- mekanism:flowing_sulfur_trioxide
+- mekanism:sulfuric_acid
+- mekanism:flowing_sulfuric_acid
+- mekanism:hydrogen_chloride
+- mekanism:flowing_hydrogen_chloride
+- mekanism:hydrofluoric_acid
+- mekanism:flowing_hydrofluoric_acid
+- mekanism:uranium_oxide
+- mekanism:flowing_uranium_oxide
+- mekanism:uranium_hexafluoride
+- mekanism:flowing_uranium_hexafluoride
+- mekanism:ethene
+- mekanism:flowing_ethene
+- mekanism:sodium
+- mekanism:flowing_sodium
+- mekanism:superheated_sodium
+- mekanism:flowing_superheated_sodium
+- mekanism:brine
+- mekanism:flowing_brine
+- mekanism:lithium
+- mekanism:flowing_lithium
+- mekanism:steam
+- mekanism:flowing_steam
+- mekanism:heavy_water
+- mekanism:flowing_heavy_water
+- mekanism:nutritional_paste
+- mekanism:flowing_nutritional_paste
+
+#forge:heavy_water
+- mekanism:heavy_water
+- mekanism:flowing_heavy_water
 
 #forge:lpg
 - pneumaticcraft:lpg

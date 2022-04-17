@@ -1,0 +1,11 @@
+{
+  "allowMovement": {
+    "net.minecraft.client.gui.screens.ReceivingLevelScreen": true,
+    "mcjty.theoneprobe.gui.GuiNote": true,
+    "mezz.jei.gui.recipes.RecipesGui": true,
+    "dev.ftb.mods.ftblibrary.ui.ScreenWrapper": true
+  },
+  "hideBackground": {
+    "mezz.jei.gui.recipes.RecipesGui": true
+  }
+}

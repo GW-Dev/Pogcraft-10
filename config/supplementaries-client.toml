@@ -181,7 +181,7 @@
 	#Allow to right click with a clock to display current time in numerical form
 	clock_right_click = true
 	#Renders an enchantment glint on placeable enchanted books
-	placeable_books_glint = true
+	placeable_books_glint = false
 
 #Items
 [items]
