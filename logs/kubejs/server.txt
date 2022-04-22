@@ -1,97 +1,47 @@
-[09:31:47] [INFO ] Loaded script server_scripts:Occ-Crush.js in 0.001 s
-[09:31:47] [INFO ] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
-[09:31:47] [INFO ] Loaded script server_scripts:script.js in 0.001 s
-[09:31:47] [INFO ] Loaded 2/2 KubeJS server scripts in 0.004 s
-[09:31:47] [INFO ] Scripts loaded
-[09:31:47] [WARN ] Failed to register handler for recipe type ars_nouveau:glyph_recipe as it doesn't exist!
-[09:31:47] [INFO ] Scanning recipes...
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:warped_pyramid_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:warped_pyramid_gate'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:warped_pyramid_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:warped_pyramid_gate'
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:nether_brick_railing_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:nether_brick_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:nether_brick_railing_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:nether_brick_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe 'moreminecarts:create/lubricant_from_membrane_crushing[create:crushing]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: create:crushing
-[09:31:53] [WARN ] Failed to parse recipe moreminecarts:create/lubricant_from_membrane_crushing[create:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:crushing'
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:granite_railing_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:granite_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:granite_railing_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:granite_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:end_brick_railing_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:end_brick_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:end_brick_railing_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:end_brick_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:jungle_pyramid_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:jungle_pyramid_gate'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:jungle_pyramid_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:jungle_pyramid_gate'
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:deepslate_brick_railing_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:deepslate_brick_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:deepslate_brick_railing_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:deepslate_brick_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:railing_deepslate_brick_wall[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:railing_deepslate_brick_wall'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:railing_deepslate_brick_wall[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:railing_deepslate_brick_wall'
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:blackstone_railing_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:blackstone_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:blackstone_railing_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:blackstone_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe 'pneumaticcraft:drone_interface[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
-[09:31:53] [WARN ] Failed to parse recipe pneumaticcraft:drone_interface[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:oak_pyramid_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:oak_pyramid_gate'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:oak_pyramid_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:oak_pyramid_gate'
-[09:31:53] [WARN ] Failed to parse recipe 'moreminecarts:create/lubricant_from_shulker_crushing[create:crushing]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: create:crushing
-[09:31:53] [WARN ] Failed to parse recipe moreminecarts:create/lubricant_from_shulker_crushing[create:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:crushing'
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:spruce_pyramid_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:spruce_pyramid_gate'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:spruce_pyramid_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:spruce_pyramid_gate'
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:modern_deepslate_wall[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:modern_deepslate_wall'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:modern_deepslate_wall[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:modern_deepslate_wall'
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:acacia_pyramid_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:acacia_pyramid_gate'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:acacia_pyramid_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:acacia_pyramid_gate'
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:deepslate_railing_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:deepslate_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:deepslate_railing_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:deepslate_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:railing_deepslate_wall[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:railing_deepslate_wall'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:railing_deepslate_wall[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:railing_deepslate_wall'
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:diorite_railing_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:diorite_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:diorite_railing_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:diorite_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe 'moreminecarts:create/silica_steel_mixing[create:mixing]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: create:mixing
-[09:31:53] [WARN ] Failed to parse recipe moreminecarts:create/silica_steel_mixing[create:mixing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:crimson_pyramid_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:crimson_pyramid_gate'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:crimson_pyramid_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:crimson_pyramid_gate'
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:stone_brick_railing_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:stone_brick_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:stone_brick_railing_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:stone_brick_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe 'moreminecarts:create/lubricant_from_chorus_crushing[create:crushing]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: create:crushing
-[09:31:53] [WARN ] Failed to parse recipe moreminecarts:create/lubricant_from_chorus_crushing[create:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:crushing'
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:birch_pyramid_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:birch_pyramid_gate'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:birch_pyramid_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:birch_pyramid_gate'
-[09:31:53] [WARN ] Failed to parse recipe 'pneumaticcraft:radiation_shield_mekanism[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
-[09:31:53] [WARN ] Failed to parse recipe pneumaticcraft:radiation_shield_mekanism[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
-[09:31:53] [WARN ] Failed to parse recipe 'mcwfences:blackstone_brick_railing_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:blackstone_brick_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe mcwfences:blackstone_brick_railing_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:blackstone_brick_railing_gate'
-[09:31:53] [WARN ] Failed to parse recipe 'pneumaticcraft:block_heat_properties/quark/brimstone[pneumaticcraft:heat_properties]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: unknown block id: quark:brimstone
-[09:31:53] [WARN ] Failed to parse recipe pneumaticcraft:block_heat_properties/quark/brimstone[pneumaticcraft:heat_properties]: com.google.gson.JsonSyntaxException: unknown block id: quark:brimstone
-[09:31:54] [WARN ] Failed to parse recipe 'mcwfences:sandstone_railing_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:sandstone_railing_gate'
-[09:31:54] [WARN ] Failed to parse recipe mcwfences:sandstone_railing_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:sandstone_railing_gate'
-[09:31:54] [WARN ] Failed to parse recipe 'mcwfences:dark_oak_pyramid_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:dark_oak_pyramid_gate'
-[09:31:54] [WARN ] Failed to parse recipe mcwfences:dark_oak_pyramid_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:dark_oak_pyramid_gate'
-[09:31:54] [WARN ] Failed to parse recipe 'mcwfences:red_sandstone_railing_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:red_sandstone_railing_gate'
-[09:31:54] [WARN ] Failed to parse recipe mcwfences:red_sandstone_railing_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:red_sandstone_railing_gate'
-[09:31:54] [WARN ] Failed to parse recipe 'mcwfences:modern_deepslate_brick_wall[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:modern_deepslate_brick_wall'
-[09:31:54] [WARN ] Failed to parse recipe mcwfences:modern_deepslate_brick_wall[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:modern_deepslate_brick_wall'
-[09:31:54] [WARN ] Failed to parse recipe 'mcwfences:andesite_railing_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:andesite_railing_gate'
-[09:31:54] [WARN ] Failed to parse recipe mcwfences:andesite_railing_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:andesite_railing_gate'
-[09:31:54] [WARN ] Failed to parse recipe 'mcwfences:bamboo_fence[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:bamboo_fence'
-[09:31:54] [WARN ] Failed to parse recipe mcwfences:bamboo_fence[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcwfences:bamboo_fence'
-[09:31:54] [INFO ] Found 11810 recipes and 0 failed recipes in 236.9 ms
-[09:31:54] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
-[09:31:54] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
-[09:31:54] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
-[09:31:54] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
-[09:31:54] [INFO ] server_scripts:script.js:12: - rechiseled:chisel[minecraft:crafting_shaped]: ['#forge:ingots/iron', '#forge:rods/wooden'] -> ['rechiseled:chisel']
-[09:31:54] [INFO ] server_scripts:script.js:12: + kubejs:shaped: ['minecraft:stick', '#forge:ingots/iron'] -> ['rechiseled:chisel']
-[09:31:54] [INFO ] server_scripts:script.js:23: - ae2:network/cells/fluid_storage_cell_1k[minecraft:crafting_shaped]: ['ae2:quartz_glass', '#forge:dusts/redstone', 'ae2:cell_component_1k', '#forge:ingots/copper'] -> ['ae2:fluid_storage_cell_1k']
-[09:31:54] [INFO ] server_scripts:script.js:23: - ae2:network/cells/fluid_storage_cell_1k_storage[minecraft:crafting_shapeless]: ['ae2:fluid_cell_housing', 'ae2:cell_component_1k'] -> ['ae2:fluid_storage_cell_1k']
-[09:31:54] [INFO ] server_scripts:script.js:23: - ae2:network/cells/fluid_storage_cell_4k[minecraft:crafting_shaped]: ['ae2:quartz_glass', '#forge:dusts/redstone', 'ae2:cell_component_4k', '#forge:ingots/copper'] -> ['ae2:fluid_storage_cell_4k']
-[09:31:54] [INFO ] server_scripts:script.js:23: - ae2:network/cells/fluid_storage_cell_4k_storage[minecraft:crafting_shapeless]: ['ae2:fluid_cell_housing', 'ae2:cell_component_4k'] -> ['ae2:fluid_storage_cell_4k']
-[09:31:54] [INFO ] server_scripts:script.js:23: - ae2:network/cells/fluid_storage_cell_16k_storage[minecraft:crafting_shapeless]: ['ae2:fluid_cell_housing', 'ae2:cell_component_16k'] -> ['ae2:fluid_storage_cell_16k']
-[09:31:54] [INFO ] server_scripts:script.js:23: - ae2:network/cells/fluid_storage_cell_16k[minecraft:crafting_shaped]: ['ae2:quartz_glass', '#forge:dusts/redstone', 'ae2:cell_component_16k', '#forge:ingots/copper'] -> ['ae2:fluid_storage_cell_16k']
-[09:31:54] [INFO ] server_scripts:script.js:23: - ae2:network/cells/fluid_storage_cell_64k_storage[minecraft:crafting_shapeless]: ['ae2:fluid_cell_housing', 'ae2:cell_component_64k'] -> ['ae2:fluid_storage_cell_64k']
-[09:31:54] [INFO ] server_scripts:script.js:23: - ae2:network/cells/fluid_storage_cell_64k[minecraft:crafting_shaped]: ['ae2:quartz_glass', '#forge:dusts/redstone', 'ae2:cell_component_64k', '#forge:ingots/copper'] -> ['ae2:fluid_storage_cell_64k']
-[09:31:54] [INFO ] server_scripts:script.js:23: + botania:mana_infusion: [] -> []
-[09:31:54] [INFO ] server_scripts:script.js:49: + botania:mana_infusion: [] -> []
-[09:31:54] [INFO ] server_scripts:script.js:65: + occultism:miner: [] -> []
-[09:31:54] [INFO ] Posted recipe events in 27.09 ms
-[09:31:54] [INFO ] Modified & removed recipes in 142.4 ms
-[09:31:54] [WARN ] Error creating recipe occultism:kjs_afjd2d0x3g80hzpxc9ny636hn[occultism:crushing]: {"type":"occultism:crushing","ingredient":{"item":"create:zinc_ore"},"result":{"item":"create:crushed_zinc_ore","count":2},"crushing_time":100,"ignore_crushing_multiplier":false}: com.google.gson.JsonSyntaxException: Unknown item 'create:zinc_ore'
-[09:31:54] [WARN ] Error creating recipe occultism:kjs_277sn80xdhnujj3ot5jx99rxu[occultism:crushing]: {"type":"occultism:crushing","ingredient":{"item":"create:deepslate_zinc_ore"},"result":{"item":"create:crushed_zinc_ore","count":2},"crushing_time":100,"ignore_crushing_multiplier":false}: com.google.gson.JsonSyntaxException: Unknown item 'create:deepslate_zinc_ore'
-[09:31:54] [WARN ] Error creating recipe occultism:kjs_a1mtw1hdp54ufo8kmgndrqoli[occultism:crushing]: {"type":"occultism:crushing","ingredient":{"item":"create:raw_zinc"},"result":{"item":"create:crushed_zinc_ore","count":2},"crushing_time":100,"ignore_crushing_multiplier":false}: com.google.gson.JsonSyntaxException: Unknown item 'create:raw_zinc'
-[09:31:54] [WARN ] Error creating recipe occultism:kjs_93tkvpiu1orikq327wpdx4cmo[occultism:crushing]: {"type":"occultism:crushing","ingredient":{"item":"create:zinc_ingot"},"result":{"item":"create:crushed_zinc_ore","count":1},"crushing_time":100,"ignore_crushing_multiplier":true}: com.google.gson.JsonSyntaxException: Unknown item 'create:zinc_ingot'
-[09:31:54] [INFO ] Added recipes in 487.8 μs
-[09:31:54] [INFO ] Added 4 recipes, removed 9 recipes, modified 0 recipes, with 4 failed recipes and 0 fall-backed recipes
+[16:50:15] [INFO ] Loaded script server_scripts:Occ-Crush.js in 0.001 s
+[16:50:15] [INFO ] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
+[16:50:15] [INFO ] Loaded script server_scripts:script.js in 0.002 s
+[16:50:15] [INFO ] Loaded 2/2 KubeJS server scripts in 0.006 s
+[16:50:15] [INFO ] Scripts loaded
+[16:50:15] [WARN ] Failed to register handler for recipe type ars_nouveau:glyph_recipe as it doesn't exist!
+[16:50:15] [INFO ] Scanning recipes...
+[16:50:21] [WARN ] Failed to parse recipe 'moreminecarts:create/lubricant_from_membrane_crushing[create:crushing]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: create:crushing
+[16:50:21] [WARN ] Failed to parse recipe moreminecarts:create/lubricant_from_membrane_crushing[create:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:crushing'
+[16:50:21] [WARN ] Failed to parse recipe 'pneumaticcraft:drone_interface[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
+[16:50:21] [WARN ] Failed to parse recipe pneumaticcraft:drone_interface[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
+[16:50:21] [WARN ] Failed to parse recipe 'moreminecarts:create/lubricant_from_shulker_crushing[create:crushing]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: create:crushing
+[16:50:21] [WARN ] Failed to parse recipe moreminecarts:create/lubricant_from_shulker_crushing[create:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:crushing'
+[16:50:21] [WARN ] Failed to parse recipe 'moreminecarts:create/silica_steel_mixing[create:mixing]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: create:mixing
+[16:50:21] [WARN ] Failed to parse recipe moreminecarts:create/silica_steel_mixing[create:mixing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[16:50:21] [WARN ] Failed to parse recipe 'moreminecarts:create/lubricant_from_chorus_crushing[create:crushing]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: create:crushing
+[16:50:21] [WARN ] Failed to parse recipe moreminecarts:create/lubricant_from_chorus_crushing[create:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:crushing'
+[16:50:21] [WARN ] Failed to parse recipe 'pneumaticcraft:radiation_shield_mekanism[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
+[16:50:21] [WARN ] Failed to parse recipe pneumaticcraft:radiation_shield_mekanism[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
+[16:50:21] [WARN ] Failed to parse recipe 'pneumaticcraft:block_heat_properties/quark/brimstone[pneumaticcraft:heat_properties]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: unknown block id: quark:brimstone
+[16:50:21] [WARN ] Failed to parse recipe pneumaticcraft:block_heat_properties/quark/brimstone[pneumaticcraft:heat_properties]: com.google.gson.JsonSyntaxException: unknown block id: quark:brimstone
+[16:50:21] [INFO ] Found 11721 recipes and 0 failed recipes in 192.1 ms
+[16:50:21] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
+[16:50:21] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
+[16:50:21] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
+[16:50:21] [INFO ] server_scripts:Occ-Crush.js:36: + occultism:crushing: [] -> []
+[16:50:21] [INFO ] server_scripts:script.js:12: - rechiseled:chisel[minecraft:crafting_shaped]: ['#forge:ingots/iron', '#forge:rods/wooden'] -> ['rechiseled:chisel']
+[16:50:21] [INFO ] server_scripts:script.js:12: + kubejs:shaped: ['minecraft:stick', '#forge:ingots/iron'] -> ['rechiseled:chisel']
+[16:50:21] [INFO ] server_scripts:script.js:23: - ae2:network/cells/fluid_storage_cell_1k[minecraft:crafting_shaped]: ['ae2:quartz_glass', '#forge:dusts/redstone', 'ae2:cell_component_1k', '#forge:ingots/copper'] -> ['ae2:fluid_storage_cell_1k']
+[16:50:21] [INFO ] server_scripts:script.js:23: - ae2:network/cells/fluid_storage_cell_1k_storage[minecraft:crafting_shapeless]: ['ae2:fluid_cell_housing', 'ae2:cell_component_1k'] -> ['ae2:fluid_storage_cell_1k']
+[16:50:21] [INFO ] server_scripts:script.js:23: - ae2:network/cells/fluid_storage_cell_4k[minecraft:crafting_shaped]: ['ae2:quartz_glass', '#forge:dusts/redstone', 'ae2:cell_component_4k', '#forge:ingots/copper'] -> ['ae2:fluid_storage_cell_4k']
+[16:50:21] [INFO ] server_scripts:script.js:23: - ae2:network/cells/fluid_storage_cell_4k_storage[minecraft:crafting_shapeless]: ['ae2:fluid_cell_housing', 'ae2:cell_component_4k'] -> ['ae2:fluid_storage_cell_4k']
+[16:50:21] [INFO ] server_scripts:script.js:23: - ae2:network/cells/fluid_storage_cell_16k_storage[minecraft:crafting_shapeless]: ['ae2:fluid_cell_housing', 'ae2:cell_component_16k'] -> ['ae2:fluid_storage_cell_16k']
+[16:50:21] [INFO ] server_scripts:script.js:23: - ae2:network/cells/fluid_storage_cell_16k[minecraft:crafting_shaped]: ['ae2:quartz_glass', '#forge:dusts/redstone', 'ae2:cell_component_16k', '#forge:ingots/copper'] -> ['ae2:fluid_storage_cell_16k']
+[16:50:21] [INFO ] server_scripts:script.js:23: - ae2:network/cells/fluid_storage_cell_64k_storage[minecraft:crafting_shapeless]: ['ae2:fluid_cell_housing', 'ae2:cell_component_64k'] -> ['ae2:fluid_storage_cell_64k']
+[16:50:21] [INFO ] server_scripts:script.js:23: - ae2:network/cells/fluid_storage_cell_64k[minecraft:crafting_shaped]: ['ae2:quartz_glass', '#forge:dusts/redstone', 'ae2:cell_component_64k', '#forge:ingots/copper'] -> ['ae2:fluid_storage_cell_64k']
+[16:50:21] [INFO ] server_scripts:script.js:23: + botania:mana_infusion: [] -> []
+[16:50:21] [INFO ] server_scripts:script.js:49: + botania:mana_infusion: [] -> []
+[16:50:21] [INFO ] server_scripts:script.js:65: + occultism:miner: [] -> []
+[16:50:21] [INFO ] Posted recipe events in 23.45 ms
+[16:50:21] [INFO ] Modified & removed recipes in 117.4 ms
+[16:50:21] [WARN ] Error creating recipe occultism:kjs_afjd2d0x3g80hzpxc9ny636hn[occultism:crushing]: {"type":"occultism:crushing","ingredient":{"item":"create:zinc_ore"},"result":{"item":"create:crushed_zinc_ore","count":2},"crushing_time":100,"ignore_crushing_multiplier":false}: com.google.gson.JsonSyntaxException: Unknown item 'create:zinc_ore'
+[16:50:21] [WARN ] Error creating recipe occultism:kjs_277sn80xdhnujj3ot5jx99rxu[occultism:crushing]: {"type":"occultism:crushing","ingredient":{"item":"create:deepslate_zinc_ore"},"result":{"item":"create:crushed_zinc_ore","count":2},"crushing_time":100,"ignore_crushing_multiplier":false}: com.google.gson.JsonSyntaxException: Unknown item 'create:deepslate_zinc_ore'
+[16:50:21] [WARN ] Error creating recipe occultism:kjs_a1mtw1hdp54ufo8kmgndrqoli[occultism:crushing]: {"type":"occultism:crushing","ingredient":{"item":"create:raw_zinc"},"result":{"item":"create:crushed_zinc_ore","count":2},"crushing_time":100,"ignore_crushing_multiplier":false}: com.google.gson.JsonSyntaxException: Unknown item 'create:raw_zinc'
+[16:50:21] [WARN ] Error creating recipe occultism:kjs_93tkvpiu1orikq327wpdx4cmo[occultism:crushing]: {"type":"occultism:crushing","ingredient":{"item":"create:zinc_ingot"},"result":{"item":"create:crushed_zinc_ore","count":1},"crushing_time":100,"ignore_crushing_multiplier":true}: com.google.gson.JsonSyntaxException: Unknown item 'create:zinc_ingot'
+[16:50:21] [INFO ] Added recipes in 848.6 μs
+[16:50:21] [INFO ] Added 4 recipes, removed 9 recipes, modified 0 recipes, with 4 failed recipes and 0 fall-backed recipes

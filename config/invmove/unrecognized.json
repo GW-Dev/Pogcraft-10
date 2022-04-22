@@ -3,9 +3,33 @@
     "net.minecraft.client.gui.screens.ReceivingLevelScreen": true,
     "mcjty.theoneprobe.gui.GuiNote": true,
     "mezz.jei.gui.recipes.RecipesGui": true,
-    "dev.ftb.mods.ftblibrary.ui.ScreenWrapper": true
+    "dev.ftb.mods.ftblibrary.ui.ScreenWrapper": true,
+    "net.minecraft.client.gui.screens.PauseScreen": true,
+    "li.cil.manual.client.gui.ManualScreen": true,
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
+    "vazkii.patchouli.client.book.gui.GuiBookEntry": true,
+    "de.maxhenkel.gravestone.gui.ObituaryScreen": true,
+    "net.mehvahdjukaar.supplementaries.integration.configured.CustomConfigSelectScreen": true,
+    "mcjty.theoneprobe.gui.GuiConfig": true,
+    "com.github.alexthe666.alexsmobs.client.gui.GUIAnimalDictionary": true,
+    "betteradvancements.gui.BetterAdvancementsScreen": true,
+    "com.mrcrayfish.configured.client.screen.ModConfigSelectionScreen": true,
+    "com.mrcrayfish.configured.client.screen.ConfigScreen": true,
+    "mekanism.generators.client.gui.GuiHeatGenerator": true,
+    "observable.client.ProfileScreen": true,
+    "mekanism.client.gui.machine.GuiMetallurgicInfuser": true,
+    "mekanism.generators.client.gui.GuiWindGenerator": true
   },
   "hideBackground": {
-    "mezz.jei.gui.recipes.RecipesGui": true
+    "mezz.jei.gui.recipes.RecipesGui": true,
+    "li.cil.manual.client.gui.ManualScreen": true,
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
+    "vazkii.patchouli.client.book.gui.GuiBookCategory": true,
+    "vazkii.patchouli.client.book.gui.GuiBookEntry": true,
+    "com.github.alexthe666.alexsmobs.client.gui.GUIAnimalDictionary": true,
+    "dev.ftb.mods.ftblibrary.ui.ScreenWrapper": true,
+    "mekanism.generators.client.gui.GuiHeatGenerator": true,
+    "mekanism.client.gui.machine.GuiMetallurgicInfuser": true,
+    "mekanism.generators.client.gui.GuiWindGenerator": true
   }
 }
